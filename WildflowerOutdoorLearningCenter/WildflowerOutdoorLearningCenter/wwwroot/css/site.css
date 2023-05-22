@@ -16,3 +16,39 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header-parallax {
+    color: white;
+    text-shadow: 5px 5px 8px black;
+    z-index: 1;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+#parallax-1 {
+    background-image: url("/images/playing_with_mud_on_tree.jpg");
+}
+
+#parallax-2 {
+    background-image: url("/images/test_photo_index_banner.jpg");
+}
